@@ -12,7 +12,7 @@
 
 ## Background
 
-<img src="https://github.com/Bayunova28/Karhutla_Monitoring/blob/master/assets/background.png" height="450" width="1100">
+<img src="https://github.com/Bayunova28/SIMONAS_KARHUTLA/blob/master/assets/background.jpg" height="450" width="1100">
 <p align="justify">Forest and land fire is an event of forest and/or land burning, either naturally or by human actions, resulting in environmental damage that causes ecological, economic, socio-cultural, and political losses. In 2015, the total area of forest and land fires in Indonesia reached 2,611,411.44 hectares; the area affected by forest fires in 2015 was the worst land and forest fires affected-area from 2013 to 2022. Forest fires cause smog and haze pollution, as well as increasing carbon emissions. Other adverse impacts include forest product degradation and deforestation, the loss of forest products and flood control functions, and the loss of biodiversity. It is necessary to take appropriate field measures of environmental conditions to prevent and manage forest and land fires and to minimize their adverse impacts.</p>
 
 ## Requirement
