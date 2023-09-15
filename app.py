@@ -9,9 +9,6 @@ from wordcloud import WordCloud
 from dashboard import get_dashboard
 from text_analyzer import get_text_analyzer
 from monitoring import get_monitoring
-import os
-
-os.environ.get("API_URL")
 
 # Set web page layouts
 st.set_page_config(
