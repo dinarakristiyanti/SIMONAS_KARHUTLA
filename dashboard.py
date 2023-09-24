@@ -54,11 +54,21 @@ def get_dashboard():
     df.loc[df['Tweet'].str.contains(r'judi', case=False), 'Tweet'] = most_common_tweet
     df.loc[df['Tweet'].str.contains(r'#MalamMingguanModal100rb', case=False), 'Tweet'] = most_common_tweet
     df.loc[df['Tweet'].str.contains(r'#telegram', case=False), 'Tweet'] = most_common_tweet
+    df.loc[df['Tweet'].str.contains(r' https://t.co/V2GhVmVqJL #jandamesum #jandasemok #janda #jandamuda #JandaNgentot #jandagatel #jandamontok #JandaSeksi #tantengentot #tantenakal #tantesange #tantebinal #tantemesum #tantebugil #tantehot #tantemontok #prostitusionline #Indonesia #IndonesiaDaruratAsap #Pancasila', case=False), 'Tweet'] = most_common_tweet
+    df.loc[df['Tweet'].str.contains(r' https://t.co/nNitKYnULZ #jandasemok #jandamuda #JandaNgentot #jandamesum #jandamontok #JandaSeksi #Jandarma #jandabohay #tantegirang #tantenakal #tantesange #tantemesum #tantebinal #tantengentot #tantebugil #tantekesepian #IndonesiaDaruratAsap #IndonesiaBerduka #Indonesia', case=False), 'Tweet'] = most_common_tweet
+    df.loc[df['Tweet'].str.contains(r' https://t.co/h2H3qOAGmZ #jandasemok #jandamesum #jandamuda #janda #JandaNgentot #jandabinal #jandabugil #Jandarma #tantegirang #tantengentot #tantesange #tantenakal #tantemontok #tantebinal #tantebugil #tantekesepian #perawanngentot #perawanhot #IndonesiaDaruratAsap #Indonesia', case=False), 'Tweet'] = most_common_tweet
+    df.loc[df['Tweet'].str.contains(r'ada cerita terbaru nie kk judulnya Mama Tiriku , jangan lupa di retweet ya kk :-)   Baca Selengkap nya di sini :  https://t.co/F7zJhvwnvk  #perselingkuhan #ceritadewasaterbaru #CeritaDewasaNgentot  #abgngentot  #BBNaija #bokepindo #pokeruangasli #kenzopoker #IndonesiaDaruratAsap  https://t.co/z4ASTkm0aJ', case=False), 'Tweet'] = most_common_tweet
+    df.loc[df['Tweet'].str.contains(r' https://t.co/K6igYRfqSA #jandamuda #jandamesum #jandabinal #jandagatel #JandaSeksi #Jandarma #jandacantik #jandajb #tantesange #tantengentot #tantenakal #tantemesum #tantebugil #tantesangek #tantesemok #tantegirang #perawanbasah #perawanhot #prostitusi #IndonesiaDaruratAsap', case=False), 'Tweet'] = most_common_tweet
+    df.loc[df['Tweet'].str.contains(r'Anak SMA diajakan ngentot sama pak guru lagi viral👍👍 Full video👉 https://t.co/XOFhEIUN2t 👉 https://t.co/xclIKH5anZ  #MEMEKBASAH #AvailJogja #bokepsma #ngentotmemek #tantesange #IndonesiaDaruratAsap #vcscrot #BTSisBack #GoogleDoodle #jilbabmesum #vcs #videobokepviral #MESUM  https://t.co/rvnYhVFdDs', case=False), 'Tweet'] = most_common_tweet
+    df.loc[df['Tweet'].str.contains(r'Cewek bohay bikin sange pengen nambah terus😍 Klik link nya untuk video durasi full ⬇️ https://t.co/lrCBDOfS6h ⬇️ https://t.co/xclIKH5anZ  #MEMEKBASAH #IndonesiaDaruratAsap #SaveKalimantan #GFKvBJK #bokepmahasiswi #vcscrot #ngentotmemek #ceritadewasa #tantehot #SANGE_AAAAAAAAAAH  https://t.co/kv0clSpr9s', case=False), 'Tweet'] = most_common_tweet
     # Replace username and account name containing about "poker" with the most common tweet content 
     most_common_username = df['Username'].value_counts().idxmax()
     df.loc[df['Username'].str.contains(r'poker', case=False), 'Username'] = most_common_username
     df.loc[df['Username'].str.contains(r'poeker', case=False), 'Username'] = most_common_username
     df.loc[df['Username'].str.contains(r'judii', case=False), 'Username'] = most_common_username
+    df.loc[df['Username'].str.contains(r'ralineshah13', case=False), 'Username'] = most_common_username
+    df.loc[df['Username'].str.contains(r'ninawijaya16', case=False), 'Username'] = most_common_username
+    df.loc[df['Username'].str.contains(r'tanteot', case=False), 'Username'] = most_common_username
     df_result = df[['Post ID', 'Conversation ID', 'User ID', 'Created At', 'Username', 
                     'Account Name', 'Tweet', 'Mentions', 'Photos', 'Replies Count',
                     'Retweets Count', 'Likes Count', 'Hashtags Count', 'Link', 'Sentiment']]
