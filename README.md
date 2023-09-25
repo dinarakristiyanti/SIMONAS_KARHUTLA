@@ -41,7 +41,7 @@
 - Build Feature Selection Technique (FST) using conventional SSA, PSO, and ALO for analysis of forest and land fires at Indonesia.
 - Build Salp Swarm Algorithm-Transfer Function as Feature Selection Technique (FST) for Sentiment Analysis of forest and land fires in Indonesia.
 
-## Schema
+## Features
 
 - **Post ID :** ID number of content post in Twitter
 - **Conversation ID :** ID number of content text conversation tweets
@@ -64,5 +64,4 @@
 - Willibrordus Bayu Nova Pramudya
 
 ## Acknowledgement
-
 The authors would like to thank IPB University for providing support in this research.
